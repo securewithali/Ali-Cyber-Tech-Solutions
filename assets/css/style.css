@@ -470,3 +470,63 @@ background:#0ea5e9;
 transform:translateY(-5px);
 
 }
+
+
+/*================ SERVICES =================*/
+
+.services{
+    padding:120px 0;
+    background:#07111f;
+}
+
+.section-header{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.section-header h2{
+    font-size:42px;
+    margin:20px 0;
+}
+
+.section-header p{
+    color:#bfc7d5;
+    line-height:1.8;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:#111827;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:35px;
+    transition:.35s ease;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    border-color:#0ea5e9;
+    box-shadow:0 20px 40px rgba(14,165,233,.20);
+}
+
+.service-card .icon{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.service-card h3{
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.service-card p{
+    color:#cbd5e1;
+    line-height:1.7;
+}
+
