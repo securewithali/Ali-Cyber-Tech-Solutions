@@ -530,3 +530,81 @@ transform:translateY(-5px);
     line-height:1.7;
 }
 
+/*================ WHY US =================*/
+
+.why-us{
+
+padding:120px 0;
+
+}
+
+.why-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+.why-left{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:25px;
+
+}
+
+.why-card{
+
+background:#111827;
+
+padding:25px;
+
+border-radius:18px;
+
+transition:.4s;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.why-card:hover{
+
+transform:translateY(-8px);
+
+border-color:#0ea5e9;
+
+box-shadow:0 20px 35px rgba(14,165,233,.25);
+
+}
+
+.why-card h3{
+
+margin-bottom:15px;
+
+}
+
+.why-card p{
+
+color:#cbd5e1;
+
+}
+
+.why-right img{
+
+width:100%;
+
+max-width:520px;
+
+display:block;
+
+margin:auto;
+
+}
+

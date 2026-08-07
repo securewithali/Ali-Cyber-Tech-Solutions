@@ -55,3 +55,20 @@ font-size:14px;
 }
 
 }
+
+
+@media(max-width:992px){
+
+.why-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.why-left{
+
+grid-template-columns:1fr;
+
+}
+
+}
