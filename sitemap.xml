@@ -1,37 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
-
-    <url>
-        <loc>https://YOUR-DOMAIN.com/</loc>
-    </url>
-
-    <url>
-        <loc>https://YOUR-DOMAIN.com/about.html</loc>
-    </url>
-
-    <url>
-        <loc>https://YOUR-DOMAIN.com/services.html</loc>
-    </url>
-
-    <url>
-        <loc>https://YOUR-DOMAIN.com/portfolio.html</loc>
-    </url>
-
-    <url>
-        <loc>https://YOUR-DOMAIN.com/blog.html</loc>
-    </url>
-
-    <url>
-        <loc>https://YOUR-DOMAIN.com/contact.html</loc>
-    </url>
-
-</urlset>
-/
-<?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
@@ -83,10 +50,3 @@
     </url>
 
 </urlset>
- /about.html
- /services.html
- /portfolio.html
- /blog.html
- /contact.html
- /privacy-policy.html
- /terms.html
