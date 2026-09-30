@@ -111,3 +111,60 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+/* =========================================================
+   ALI CYBER TECH SOLUTIONS
+   Services & Pricing Category Filter
+   ========================================================= */
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const filterButtons = document.querySelectorAll(".acts-filter-btn");
+    const serviceCards = document.querySelectorAll(".acts-price-card");
+
+    if (!filterButtons.length || !serviceCards.length) {
+        return;
+    }
+
+    filterButtons.forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            const filter = this.getAttribute("data-filter");
+
+            /* Active button */
+            filterButtons.forEach(function (btn) {
+                btn.classList.remove("active");
+            });
+
+            this.classList.add("active");
+
+            /* Filter cards */
+            serviceCards.forEach(function (card) {
+
+                const category = card.getAttribute("data-category");
+
+                if (filter === "all" || category === filter) {
+
+                    card.classList.remove("is-hidden");
+
+                    /* Restart animation */
+                    card.classList.remove("is-visible");
+
+                    void card.offsetWidth;
+
+                    card.classList.add("is-visible");
+
+                } else {
+
+                    card.classList.remove("is-visible");
+                    card.classList.add("is-hidden");
+
+                }
+
+            });
+
+        });
+
+    });
+
+});
