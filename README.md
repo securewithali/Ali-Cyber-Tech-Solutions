@@ -48,7 +48,7 @@ YouTube:
 https://www.youtube.com/@AliCyberTechSolutions
 
 Facebook:
-https://facebook.com/share/1CmC5bZ5jz
+https://facebook.com/alicybertechsolutions
 
 Telegram:
 https://t.me/alicybertechsolutions
